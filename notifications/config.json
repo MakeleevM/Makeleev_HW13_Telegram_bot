@@ -3,7 +3,7 @@
     "project": "Test project",
     "environment": "qa.ru",
     "comment": "ТЕСТЫ ТУТ @Mace133v",
-    "reportLink": "https://jenkins.autotests.cloud/view/java_students/job/41-Mace133v-Unit12/",
+    "reportLink": "https://jenkins.autotests.cloud/view/java_students/job/41-Mace133v-Unit13/",
     "language": "ru",
     "allureFolder": "C:\\Users\\adm\\AppData\\Local\\Temp\\8603352076487632131\\allure-report",
     "enableChart": true
