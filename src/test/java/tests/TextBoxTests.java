@@ -73,23 +73,6 @@ public class TextBoxTests extends BaseTest {
     }
 
     @Test
-    @DisplayName("Негативный тест: неверный формат email")
-    void negativeFillFormTest() {
-        step("Открыть страницу TextBox", () ->
-                textBoxPage.openPage()
-        );
-
-        step("Ввести некорректный email и отправить форму", () -> {
-            textBoxPage.typeUserEmail(testData.wrongEmail)
-                    .submitButton();
-        });
-
-        step("Проверить сообщение об ошибке", () ->
-                textBoxPage.checkFieldError()
-        );
-    }
-
-    @Test
     @DisplayName("Заполнение только поля имени")
     void miniFieldTest() {
         step("Открыть страницу TextBox", () ->

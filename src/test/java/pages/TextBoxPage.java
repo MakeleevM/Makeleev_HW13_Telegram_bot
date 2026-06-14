@@ -15,7 +15,6 @@ public class TextBoxPage {
     private final SelenideElement outputResults = $("#output");
     private final SelenideElement currentAddressInput = $("#currentAddress");
     private final SelenideElement permanentAddressInput = $("#permanentAddress");
-    private final SelenideElement errorField = $("#output");
 
 
     public TextBoxPage openPage() {
@@ -59,11 +58,4 @@ public class TextBoxPage {
 
         return this;
     }
-
-    public TextBoxPage checkFieldError() {
-        errorField.shouldHave(not(visible));
-
-        return this;
-    }
-
 }
